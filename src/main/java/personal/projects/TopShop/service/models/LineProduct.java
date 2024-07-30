@@ -18,7 +18,7 @@ public class LineProduct {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @ManyToOne(cascade = CascadeType.ALL)
+    @ManyToOne
     private Product product;
 
     @ManyToOne

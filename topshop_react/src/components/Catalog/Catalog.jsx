@@ -310,6 +310,8 @@ export default function Catalog() {
                                         owner={product.owner}
                                         price={product.price}
                                         stock={product.stock}
+                                        averageRating={product.averageRating}
+                                        reviewsCount={product.reviewsCount}
                                     />
                                 )}
                             </div>

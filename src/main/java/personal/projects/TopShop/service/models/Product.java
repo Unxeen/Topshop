@@ -24,7 +24,7 @@ public class Product {
     private Double averageRating;
     private Integer reviewsCount;
     @OneToOne(cascade = CascadeType.ALL)
-    private ProductImage image;
+      private ProductImage image;
 
     @ManyToOne
     private Client owner;
